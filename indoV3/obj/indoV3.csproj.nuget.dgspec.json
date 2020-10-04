@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\acer\\source\\repos\\indoV3\\indoV3\\indoV3.csproj": {}
+    "C:\\Users\\acer\\core\\indoV3\\indoV3.csproj": {}
   },
   "projects": {
-    "C:\\Users\\acer\\source\\repos\\indoV3\\indoV3\\indoV3.csproj": {
+    "C:\\Users\\acer\\core\\indoV3\\indoV3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\acer\\source\\repos\\indoV3\\indoV3\\indoV3.csproj",
+        "projectUniqueName": "C:\\Users\\acer\\core\\indoV3\\indoV3.csproj",
         "projectName": "indoV3",
-        "projectPath": "C:\\Users\\acer\\source\\repos\\indoV3\\indoV3\\indoV3.csproj",
+        "projectPath": "C:\\Users\\acer\\core\\indoV3\\indoV3.csproj",
         "packagesPath": "C:\\Users\\acer\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\acer\\source\\repos\\indoV3\\indoV3\\obj\\",
+        "outputPath": "C:\\Users\\acer\\core\\indoV3\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -40,6 +40,28 @@
       },
       "frameworks": {
         "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.AspNetCore.Mvc.NewtonsoftJson": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
